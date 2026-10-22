@@ -10,6 +10,9 @@ async function deviceEntered() {
     if (device.includes("smart")) {
         resolvedDevice = "smart-device";
     }
+    else if (device.toLowerCase() === "rick astley"){
+        resolvedDevice = "rick-astley";
+    }
     else{
         const aiWaitingThingy = document.getElementById("ai-waiting-thingy")
         aiWaitingThingy.style.display = "block";
