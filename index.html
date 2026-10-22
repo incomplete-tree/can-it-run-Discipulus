@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- Licscenced under public domain, but you have to censor api keys before redistributing! -->
+<!-- Preferably replace them with "AQ.Pl3aSe_D0nT_St3Al-Th1s-K3y" or similar. -->
+<html>
+    <head>
+        <script src="index.js"></script>
+        <style>
+            .result{
+                display: none;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Can it run discipulus?</h1>
+
+        <form onsubmit="deviceEntered(); return false;">
+            <label>device
+                <input id="device-enter-input">
+                <button type="submit">Submit</button>
+            </label>
+        </form>
+        
+        <div id="ai-waiting-thingy" style="display:none">
+            Wait one moment let me ask ai
+        </div>
+
+        <div id="nintendo-wii-u" class="result">
+            <h2><strong>Yes! It can!</strong></h2>
+            <img src="wii-u.jpg" style="width: 40%;"/>
+        </div>
+
+        <div id="nintendo-3ds" class="result">
+            <h2>Yes! It can!</h2>
+            <img src="3ds.jpg" style="width: 40%";/>
+        </div>
+        <div id="obviously" class="result">
+            <h2>Obviously it can.</h2>
+        </div>
+
+        <div id="no-internet" class="result">
+            <h2>
+                No, duh
+            </h2>
+            <p>it has no wifi</p>
+        </div>
+        <div id="smart-device" class="result">
+            <h2><strong>Yes, by definition!</strong></h2>
+            <p>Being smart means being able to run Discipulus. Proof: name a smart device that can't run Discipulus. You can't, because it wouldn't be smart.</p>
+        </div>
+        <div id="cant-run" class="result">
+            <h2>No</h2>
+        </div>
+    </body>
+</html>
