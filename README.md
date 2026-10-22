@@ -1,1 +1,1 @@
-A website where you can enter a device and you will know if it can or can not run [Discipulus](https://github.com/DiscipulusApp/Discipulus).
+Always wondered if a device can run Discipulus? wonder no more, and just insert it into https://can-it-run-discipulus.jouk.ee/. This AI-powered tool will automatically check if your device can run Discipulus.
