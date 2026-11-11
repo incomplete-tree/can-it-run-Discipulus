@@ -49,7 +49,7 @@ async function getAiResponse(prompt){
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": `Bearer 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`
+            "Authorization": `Bearer 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`
         },
         body: JSON.stringify({
             model: "openai/gpt-oss-20b",
